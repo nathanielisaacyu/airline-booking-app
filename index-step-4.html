@@ -1,0 +1,263 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="css/bulma.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="hero is-yellow is-fullheight">
+		<div class="columns is-gapless is-mobile" style="height: 100%;">
+			<div class="column is-1">
+			</div>
+			<div class="column is-2">
+				<div class="logo">
+					<img src="img/logo.png" width="180" height="240" style="display: block; margin-left: auto;
+					margin-right: auto;" />
+				</div>
+				<aside class="menu" style="font-size: 16px; padding-left: 75px;">
+					<ul class="menu-list">
+						<li><a>Flights<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Check-In<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a class="is-active">Bookings<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Flight Status<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Travel Information<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Corporate<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Help & Contact<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="column is-white is-clearfix is-bg" style="background-image: url('img/wall4.jpg');">
+				<div class="card-vertical is-pulled-left">
+					<div class="card-vertical-content is-active">
+						Round trip
+						<div class="card-vertical-value">
+							<span class="icon">
+								<i class="fa fa-plane"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						From
+						<div class="card-vertical-value">
+							ZHG
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						To
+						<div class="card-vertical-value">
+							BOS
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Depart
+						<div class="card-vertical-value">
+							10/26
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Return
+						<div class="card-vertical-value">
+							10/28
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Passenger
+						<div class="card-vertical-value">
+							1
+						</div>
+					</div>
+					<div onclick="back()" class="card-vertical-content is-last is-navy">
+						&nbsp;
+						<div class="card-vertical-value">
+							<span class="icon is-medium">
+								<i class="fa fa-long-arrow-left" style="color: white;"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<section class="container is-pulled-left" style="margin-top: 8%; padding: 0 30px;">
+					<h1 class="title is-1" style="font-family: Helvetica; font-weight: bold; color: #f8b332;">Add Ons</h1>
+					<h2 class="subtitle">Select add ons for your flight:</h2>
+					<div class="columns is-mobile">
+						<div class="column is-9">
+							<nav class="nav custom-nav">
+								<div class="nav-left">
+									<a class="nav-item is-text-white">
+										<span class="icon" style="font-size: 20px;">
+											①
+										</span>
+									</a>
+									<a class="nav-item is-text-white">
+										<span class="icon" style="font-size: 20px;">
+											②
+										</span>
+									</a>
+									<a class="nav-item is-text-white">
+										<span class="icon" style="font-size: 22px;">
+											➂
+										</span>
+									</a>
+									<a class="nav-item is-text-yellow">
+										STEP
+										<span class="icon" style="font-size: 22px;">
+											④
+										</span>:
+										&nbsp;Add Ons
+									</a>
+								</div>
+								<div class="nav-right">
+									<a class="nav-item">
+										<span class="icon" style="font-size: 22px;">
+											➄
+										</span>
+									</a>
+								</div>
+							</nav>
+							<div class="box">
+								<h1 class="title"><span class="">Checked Baggage</span></h1>
+								<h2 class="subtitle is-6">Guest name must match goverment-issued photo ID in Roman Alphabet (A-Z). Any name changes after booking will require the purchase of a new flight.</h2>
+								<div class="columns is-mobile">
+									<div class="column is-10">
+										<div class="field">
+											<label class="label">Departure</label>
+										</div>
+										<div class="field has-addons">
+											<p class="control">
+												<input disabled class="input" type="text" placeholder="ZHG - BOS">
+											</p>
+											<p class="control">
+												<span class="select is-fullwidth">
+													<select>
+														<option>Up to 20kg - 849.00 PHP</option>
+														<option>Marketing</option>
+														<option>Sales</option>
+													</select>
+												</span>
+											</p>
+											<p class="control">
+												<a class="button delete" style="background-color: #f36565;">
+												</a>
+											</p>
+										</div>
+										<div class="field">
+											<label class="label">Return</label>
+										</div>
+										<div class="field has-addons">
+											<p class="control">
+												<input disabled class="input" type="text" placeholder="BOS - ZHG">
+											</p>
+											<p class="control">
+												<span class="select is-fullwidth">
+													<select>
+														<option>Up to 20kg - 849.00 PHP</option>
+														<option>Marketing</option>
+														<option>Sales</option>
+													</select>
+												</span>
+											</p>
+											<p class="control">
+												<a class="button delete" style="background-color: #f36565;">
+												</a>
+											</p>
+										</div>
+									</div>
+									<div class="column">
+									</div>
+								</div>
+								<p class="subtitle is-6">Sports equipment includes Golf, Surfboard, Bicycle, Skis/Snowboard, Cricket, and Diving gear. Any other sporting equipments not stated here is accepted as part of your checked baggage allowance. <a class="is-link">I need to check-in sports equipment</a></p>
+							</div>
+							<div class="box is-clearfix">
+								<h1 class="title"><span class="">Santan Combo Meal</span></h1>
+								<h2 class="subtitle is-6">Each prebooked meal comes with a complimentary drink.</h2>
+								<div class="columns is-mobile">
+									<div class="column is-4">
+										<figure class="image is-16by9">
+											<img src="img/food1.jpg">
+										</figure>
+									</div>
+									<div class="column is-4">
+										<figure class="image is-16by9">
+											<img src="img/food2.jpg">
+										</figure>
+									</div>
+									<div class="column is-4">
+										<figure class="image is-16by9">
+											<img src="img/food3.jpg">
+										</figure>
+									</div>
+								</div>
+								<div class="field is-grouped is-pulled-right">
+									<p class="control">
+										<a class="button is-primary is-shadow">
+											<span>Select</span>
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="box">
+							<h3 class="title">Booking Summary</h3>
+							<h2 class="subtitle is-6">Switzerland (ZHG) - Boston (BOS)</h2>
+							<br/>
+							<h2 class="title is-4"><strong>P3480.00</strong></h2>
+							</div>
+						</div>
+					</div>
+					<div class="field is-grouped is-pulled-right">
+						<p class="control">
+							<a class="button">
+								Return
+							</a>
+						</p>
+						<p class="control">
+							<a class="button is-primary is-shadow">
+								<span>Next</span><span class="icon is-small"><i class="fa fa-chevron-right"></i></span>
+							</a>
+						</p>
+					</div>
+				</section>
+				<section class="is-pulled-left" style="position: absolute; top: 0; right: 0; padding: 20px;">
+					<article class="media">
+						<figure class="media-left">
+							<p class="image is-48x48">
+								<img class="image-circle" src="img/pp.jpg">
+							</p>
+						</figure>
+						<div class="media-content">
+							<div class="content">
+								<p>
+									<strong>John J. Smith</strong><br/>
+									<small><a href="">My Account</a></small> | <small><a href="">Settings</a></small> 
+								</p>
+							</div>
+						</div>
+						<div class="media-right">
+							<a class="level-item">
+								<span class="icon is-medium"><i class="fa fa-sign-out"></i></span>
+							</a>
+						</div>
+					</article>
+				</section>
+			</div>
+			<!-- <div class="column is-1 is-light-gray">
+		</div> -->
+	</div>
+</section>
+<script>
+	function back() {
+		window.location.href = "index-step-3.html";
+	}
+</script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

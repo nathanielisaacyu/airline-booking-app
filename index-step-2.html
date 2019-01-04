@@ -1,0 +1,234 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="css/bulma.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="hero is-yellow is-fullheight">
+		<div class="columns is-gapless is-mobile">
+			<div class="column is-1">
+			</div>
+			<div class="column is-2">
+				<div class="logo">
+					<img src="img/logo.png" width="180" height="240" style="display: block; margin-left: auto;
+					margin-right: auto;" />
+				</div>
+				<aside class="menu" style="font-size: 16px; padding-left: 75px;">
+					<ul class="menu-list">
+						<li><a>Flights<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Check-In<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a class="is-active">Bookings<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Flight Status<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Travel Information<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Corporate<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+						<li><a>Help & Contact<span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="column is-white is-clearfix is-bg" style="background-image: url('img/wall1.jpg');">
+				<div class="card-vertical is-pulled-left">
+					<div class="card-vertical-content is-active">
+						Round trip
+						<div class="card-vertical-value">
+							<span class="icon">
+								<i class="fa fa-plane"></i>
+							</span>
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						From
+						<div class="card-vertical-value">
+							ZHG
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						To
+						<div class="card-vertical-value">
+							BOS
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Depart
+						<div class="card-vertical-value">
+							10/26
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Return
+						<div class="card-vertical-value">
+							10/28
+						</div>
+					</div>
+					<div class="card-vertical-content">
+						Passenger
+						<div class="card-vertical-value">
+							1
+						</div>
+					</div>
+					<div onclick="back()" class="card-vertical-content is-last is-navy">
+						&nbsp;
+						<div class="card-vertical-value">
+							<span class="icon is-medium">
+								<i class="fa fa-long-arrow-left" style="color: white;"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<section class="container is-pulled-left" style="margin-top: 8%; padding: 0 30px;">
+					<h1 class="title is-1" style="font-family: Helvetica; font-weight: bold; color: #f8b332;">Search Results</h1>
+					<h2 class="subtitle">Select a flight schedule:</h2>
+					<nav class="nav custom-nav">
+						<div class="nav-left">
+							<a class="nav-item is-text-white">
+								<span class="icon" style="font-size: 20px;">
+									①
+								</span>
+							</a>
+							<a class="nav-item is-text-yellow">
+								STEP
+								<span class="icon" style="font-size: 22px;">
+									②
+								</span>:
+								&nbsp;Select Flight
+							</a>
+						</div>
+						<div class="nav-right">
+							<a class="nav-item">
+								<span class="icon" style="font-size: 22px;">
+									➂
+								</span>
+							</a>
+							<a class="nav-item">
+								<span class="icon" style="font-size: 22px;">
+									④
+								</span>
+							</a>
+							<a class="nav-item">
+								<span class="icon" style="font-size: 22px;">
+									➄
+								</span>
+							</a>
+						</div>
+					</nav>
+					<table class="table custom-table">
+						<thead>
+							<tr>
+								<th>Operator</th>
+								<th>FRA <span class="icon"><i class="fa fa-long-arrow-right"></i></span> HKG</th>
+								<th>Sort by: <strong>Duration</strong></th>
+								<th>Economy Basic</th>
+								<th>Economy Basic Plus</th>
+								<th>Economy Premium</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Operator</th>
+								<th>FRA <span class="icon"><i class="fa fa-long-arrow-right"></i></span> HKG</th>
+								<th>Sort by: <strong>Duration</strong></th>
+								<th>Economy Basic</th>
+								<th>Economy Basic Plus</th>
+								<th>Economy Premium</th>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="row-flight-sched">
+								<td><img src="img/tw-lufthansa.png" width="50" height="65" /></td>
+								<td>22:59 - 06:10 (+1 day)</td>
+								<td>38</td>
+								<td><label><input type="radio" name="row1"/> PHP 2,907</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,207</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,407</label></td>
+							</tr>
+							<tr class="row-flight-sched">
+								<td><img src="img/tw-lufthansa.png" width="50" height="65" /></td>
+								<td>22:59 - 06:10 (+1 day)</td>
+								<td>38</td>
+								<td><label><input type="radio" name="row1"/> PHP 2,907</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,207</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,407</label></td>
+							</tr>
+							<tr class="row-flight-sched">
+								<td><img src="img/tw-lufthansa.png" width="50" height="65" /></td>
+								<td>22:59 - 06:10 (+1 day)</td>
+								<td>38</td>
+								<td><label><input type="radio" name="row1"/> PHP 2,907</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,207</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,407</label></td>
+							</tr>
+							<tr class="row-flight-sched">
+								<td><img src="img/tw-red.png" width="50" height="65" /></td>
+								<td>22:59 - 06:10 (+1 day)</td>
+								<td>38</td>
+								<td><label><input type="radio" name="row1"/> PHP 2,907</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,207</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,407</label></td>
+							</tr>
+							<tr class="row-flight-sched">
+								<td><img src="img/tw-lufthansa.png" width="50" height="65" /></td>
+								<td>22:59 - 06:10 (+1 day)</td>
+								<td>38</td>
+								<td><label><input type="radio" name="row1"/> PHP 2,907</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,207</label></td>
+								<td><label><input type="radio" name="row1"/> PHP 3,407</label></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="field is-grouped is-pulled-right">
+						<p class="control">
+							<a class="button">
+								Return
+							</a>
+						</p>
+						<p class="control">
+							<a class="button is-primary is-shadow" href="index-step-3.html">
+								<span>Next</span><span class="icon is-small"><i class="fa fa-chevron-right"></i></span>
+							</a>
+						</p>
+					</div>
+				</section>
+				<section class="is-pulled-left" style="position: absolute; top: 0; right: 0; padding: 20px;">
+					<article class="media">
+						<figure class="media-left">
+							<p class="image is-48x48">
+								<img class="image-circle" src="img/pp.jpg">
+							</p>
+						</figure>
+						<div class="media-content">
+							<div class="content">
+								<p>
+									<strong>John J. Smith</strong><br/>
+									<small><a href="">My Account</a></small> | <small><a href="">Settings</a></small> 
+								</p>
+							</div>
+						</div>
+						<div class="media-right">
+							<a class="level-item">
+								<span class="icon is-medium"><i class="fa fa-sign-out"></i></span>
+							</a>
+						</div>
+					</article>
+				</section>
+			</div>
+			<!-- <div class="column is-1 is-light-gray">
+		</div> -->
+	</div>
+</section>
+<script>
+	function back() {
+		window.location.href = "index.html";
+	}
+</script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
