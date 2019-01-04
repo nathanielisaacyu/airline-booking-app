@@ -1,0 +1,12 @@
+main yellow - #f8b332
+card white - #ffffff
+card label - #c1c6ca
+card value - #111a53
+card action - #161d54
+sub header - #7c7e8b
+main header - #111a53
+
+main header - helvetica bold
+
+primary - #111a53
+info - #3f66c5
